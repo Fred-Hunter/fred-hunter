@@ -5,37 +5,37 @@ const quotes = [{
     text: "If I was six how old was I?",
     author: "Liam Anderson"
 },{
-    text: "Sorry I'm eating grapes",
+    text: "Sorry I'm eating grapes.",
     author: "Ren Ishikawa"
 },{
-    text: "How does it exist if you can't see it",
+    text: "How does it exist if you can't see it?",
     author: "Ren Ishikawa"
 },{
-    text: "I know by boobies",
+    text: "I know my boobies.",
     author: "Emma Sullivan"
 },{
     text: "Do you want me to crochet it a face?",
     author: "Ava Campbell"
 },{
-    text: "Sandwiches - fine. Fine. Deal with that.",
+    text: "Sandwiches. Fine. Fine. Deal with that.",
     author: "Evelyn Cooper"
 },{
-    text: "It's like high jump but the bar gets higher and you've got to get over it?",
+    text: "It's like high jump but the bar gets higher and you've got to get over it.",
     author: "Sebastian Cheshire"
 },{
     text: "What is rizz?",
     author: "Benedict Thornton"
 },{
-    text: "People often liken me to drinking a glass of water backwards",
+    text: "People often liken me to drinking a glass of water backwards.",
     author: "Emma Sullivan"
 },{
-    text: "Stuff can't happen simultaneously",
+    text: "Stuff can't happen simultaneously.",
     author: "Ethan Montgomery"
 },{
-    text: "I can answer this question, what was the question?",
+    text: "I can answer this question - what was the question?",
     author: "Reginald Middleton"
 },{
-    text: "You can never be wrong about stuff",
+    text: "You can never be wrong about stuff.",
     author: "Ethan Montgomery"
 }];
 
