@@ -75,7 +75,6 @@ html {
     width: 600px;
     height: 600px;
     position: absolute;
-    filter: hue-rotate(90deg);
 }
 
 .blob svg path {

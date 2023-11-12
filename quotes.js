@@ -44,4 +44,4 @@ const quote = quotes[Math.floor(Math.random() * quotes.length)]
 document.getElementsByClassName("text_quote")[0].textContent = quote.text;
 document.getElementsByClassName("text_quoteAuthor")[0].textContent = quote.author;
 
-document.getElementsByClassName("blob")[0].setAttribute("style", "filter: hue-rotate(" + Math.random() * 360 + "deg)");
+document.getElementsByClassName("blob")[0].setAttribute("style", "filter: hue-rotate(" + Math.random() * 360 + "deg) brightness(0.7)");
