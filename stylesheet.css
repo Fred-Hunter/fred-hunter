@@ -1,0 +1,91 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+:root {
+    --blob-time: 30s;
+    --blob-pulse: 0.2;
+    --white: #ffffff;
+    --black: #0c0f0a;
+    --pink: #ff206e;
+}
+
+body,
+html {
+    overflow: hidden;
+    background: var(--white);
+    font-family: "Lato", sans-serif;
+}
+
+.bodyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.title {
+    color: var(--white);
+    display: block;
+    font-size: 10rem;
+    font-weight: bold;
+    text-align: center;
+    mix-blend-mode: difference;
+    z-index: 3;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.blob {
+    animation: blob-turn var(--blob-time) linear infinite;
+    fill: var(--pink);
+    transform-origin: center;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+}
+
+.blob svg path {
+    animation: blob-scale calc(var(--blob-time) / 2 + 1) ease-in-out 0s infinite;
+    transform-origin: center;
+}
+
+@keyframes blob-turn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(160deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes blob-scale {
+    0% {
+        transform: scaleX(calc(1 - var(--blob-pulse))) scaleY(1);
+    }
+
+    25% {
+        transform: scaleX(calc(1 - var(--blob-pulse))) scaleY(calc(1 - var(--blob-pulse)));
+    }
+
+    50% {
+        transform: scaleX(1) scaleY(calc(1 - var(--blob-pulse)));
+    }
+
+    75% {
+        transform: scaleX(calc(1 - var(--blob-pulse))) scaleY(calc(1 - var(--blob-pulse)));
+    }
+
+    100% {
+        transform: scaleX(calc(1 - var(--blob-pulse))) scaleY(1);
+    }
+}
