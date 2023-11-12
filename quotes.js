@@ -39,7 +39,7 @@ const quotes = [{
     author: "Ethan Montgomery"
 }];
 
-const quote = quotes[Math.floor(Math.random() * quotes.length)]
+const quote = quotes[new Date().getSeconds() % quotes.length];
 
 document.getElementsByClassName("text_quote")[0].textContent = quote.text;
 document.getElementsByClassName("text_quoteAuthor")[0].textContent = quote.author;
