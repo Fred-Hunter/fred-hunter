@@ -53,7 +53,8 @@ const setQuote = () => {
     document.getElementsByClassName("text_quote")[0].textContent = quote.text;
     document.getElementsByClassName("text_quoteAuthor")[0].textContent = quote.author;
     
-    document.getElementsByClassName("blob")[0].setAttribute("style", "filter: hue-rotate(" + Math.random() * 360 + "deg) brightness(0.7)");
+    const randomNumber = Math.random();
+    document.getElementsByClassName("blob")[0].setAttribute("style", "filter: hue-rotate(" + randomNumber * 360 + "deg) brightness(0.7); filter: webkit-hue-rotate(" + randomNumber * 360 + "deg) brightness(0.7)");
 }
 
 setQuote();
