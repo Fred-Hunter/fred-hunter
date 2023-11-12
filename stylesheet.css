@@ -57,6 +57,8 @@ html {
     text-align: center;
     mix-blend-mode: difference;
     flex-basis: 100%;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .text_quoteAuthor {
@@ -66,6 +68,8 @@ html {
     font-weight: bold;
     text-align: center;
     mix-blend-mode: difference;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .blob {

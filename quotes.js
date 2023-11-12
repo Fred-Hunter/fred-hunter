@@ -39,9 +39,26 @@ const quotes = [{
     author: "Ethan Montgomery"
 }];
 
-const quote = quotes[new Date().getSeconds() % quotes.length];
+const setQuote = () => {
+    if (!localStorage.getItem("indexes")) {
+        localStorage.setItem("indexes", [...Array(quotes.length).keys()].sort(() => Math.random() - 0.5));
+    }
 
-document.getElementsByClassName("text_quote")[0].textContent = quote.text;
-document.getElementsByClassName("text_quoteAuthor")[0].textContent = quote.author;
+    const indexes = localStorage.getItem("indexes").split(",");
 
-document.getElementsByClassName("blob")[0].setAttribute("style", "filter: hue-rotate(" + Math.random() * 360 + "deg) brightness(0.7)");
+    const index = indexes.pop();
+    localStorage.setItem("indexes", indexes)
+
+    const quote = quotes[index];
+    document.getElementsByClassName("text_quote")[0].textContent = quote.text;
+    document.getElementsByClassName("text_quoteAuthor")[0].textContent = quote.author;
+    
+    document.getElementsByClassName("blob")[0].setAttribute("style", "filter: hue-rotate(" + Math.random() * 360 + "deg) brightness(0.7)");
+}
+
+setQuote();
+
+document.body.style.cursor = "pointer";
+document.body.style.display = "initial";
+document.addEventListener("click", setQuote, false);
+
