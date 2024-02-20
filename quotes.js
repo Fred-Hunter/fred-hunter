@@ -37,6 +37,15 @@ const quotes = [{
 },{
     text: "You can never be wrong about stuff.",
     author: "Ethan Montgomery"
+},{
+    text: "I am not a SAAS company.",
+    author: "Mateo Fernandez"
+},{
+    text: "Not sure which one that's to, but yeah.",
+    author: "Natalia Petrov"
+},{
+    text: "We've got to go down yoghurt.",
+    author: "Lars Andersen"
 }];
 
 const setQuote = () => {
