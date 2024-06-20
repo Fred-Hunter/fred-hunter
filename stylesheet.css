@@ -45,6 +45,7 @@ html {
     font-weight: bold;
     text-align: center;
     mix-blend-mode: difference;
+    transform: translate3d(0,0,0); // For mix-blend-mode rendering in older webkit
     user-select: none;
     -webkit-user-select: none;
 }
@@ -56,6 +57,7 @@ html {
     font-weight: bold;
     text-align: center;
     mix-blend-mode: difference;
+    transform: translate3d(0,0,0); // For mix-blend-mode rendering in older webkit
     flex-basis: 100%;
     user-select: none;
     -webkit-user-select: none;
@@ -68,6 +70,7 @@ html {
     font-weight: bold;
     text-align: center;
     mix-blend-mode: difference;
+    transform: translate3d(0,0,0); // For mix-blend-mode rendering in older webkit
     user-select: none;
     -webkit-user-select: none;
 }
