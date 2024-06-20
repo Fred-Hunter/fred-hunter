@@ -46,6 +46,9 @@ const quotes = [{
 },{
     text: "We've got to go down yoghurt.",
     author: "Lars Andersen"
+},{
+    text: "Ramekins are more square circles.",
+    author: "Arjun Nakamura"
 }];
 
 const setQuote = () => {
