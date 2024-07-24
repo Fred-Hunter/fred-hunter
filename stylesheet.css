@@ -59,6 +59,7 @@ html {
     flex-basis: 100%;
     user-select: none;
     -webkit-user-select: none;
+    width: 100%;
 }
 
 .text_quoteAuthor {
