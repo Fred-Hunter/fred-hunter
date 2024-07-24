@@ -49,6 +49,9 @@ const quotes = [{
 },{
     text: "Ramekins are more square circles.",
     author: "Arjun Nakamura"
+},{
+    text: "Better deep than out.",
+    author: "Mara Alonzo"
 }];
 
 const setQuote = () => {
