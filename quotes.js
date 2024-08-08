@@ -52,6 +52,9 @@ const quotes = [{
 },{
     text: "Better deep than out.",
     author: "Mara Alonzo"
+},{
+    text: "Where are we socking, bois?",
+    author: "Lina Kowalski"
 }];
 
 const setQuote = () => {
