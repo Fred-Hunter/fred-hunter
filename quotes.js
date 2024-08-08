@@ -11,9 +11,6 @@ const quotes = [{
     text: "How does it exist if you can't see it?",
     author: "Ren Ishikawa"
 },{
-    text: "I know my boobies.",
-    author: "Emma Sullivan"
-},{
     text: "Do you want me to crochet it a face?",
     author: "Ava Campbell"
 },{
