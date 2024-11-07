@@ -50,6 +50,9 @@ const quotes = [{
     text: "Better deep than out.",
     author: "Mara Alonzo"
 },{
+    text: "That's a thing isn't it? 9 women can't give birth in a month.",
+    author: "Emma Sullivan"
+},{
     text: "Where are we socking, bois?",
     author: "Lina Kowalski"
 }];
