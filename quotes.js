@@ -2,6 +2,9 @@ const quotes = [{
     text: "If you close your eyes how do you sleep?",
     author: "Ethan Montgomery"
 },{
+    text: "If you've got hair you're still naked",
+    author: "Ethan Montgomery"
+},{
     text: "If I was six how old was I?",
     author: "Liam Anderson"
 },{
@@ -24,6 +27,9 @@ const quotes = [{
     author: "Benedict Thornton"
 },{
     text: "People often liken me to drinking a glass of water backwards.",
+    author: "Emma Sullivan"
+},{
+    text: "That's a think, right? 9 women can't give birth in a month?.",
     author: "Emma Sullivan"
 },{
     text: "Stuff can't happen simultaneously.",
