@@ -29,9 +29,6 @@ const quotes = [{
     text: "People often liken me to drinking a glass of water backwards.",
     author: "Emma Sullivan"
 },{
-    text: "That's a think, right? 9 women can't give birth in a month?.",
-    author: "Emma Sullivan"
-},{
     text: "Stuff can't happen simultaneously.",
     author: "Ethan Montgomery"
 },{
