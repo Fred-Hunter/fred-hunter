@@ -58,6 +58,12 @@ const quotes = [{
 },{
     text: "Where are we socking, bois?",
     author: "Lina Kowalski"
+},{
+    text: "My brain hurts, but that sounds like goodness",
+    author: "Aiko Fernandes"
+},{
+    text: "Is mushrooms vegetables?",
+    author: "Zubair El-Sayed"
 }];
 
 const setQuote = () => {
