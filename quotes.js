@@ -64,6 +64,9 @@ const quotes = [{
 },{
     text: "Is mushrooms vegetables?",
     author: "Zubair El-Sayed"
+},{
+    text: "I'm really spend luxury on you with car park.",
+    author: "Aiko Fernandes"
 }];
 
 const setQuote = () => {
