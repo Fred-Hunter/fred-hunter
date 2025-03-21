@@ -68,6 +68,9 @@ const quotes = [{
     text: "I'm really spend luxury on you with car park.",
     author: "Aiko Fernandes"
 },{
+    text: "The shit is out of toilet.",
+    author: "Ethan Montgomery"
+},{
     text: "what the fuck's a lion?",
     author: "Ethan Montgomery"
 }];
