@@ -67,6 +67,9 @@ const quotes = [{
 },{
     text: "I'm really spend luxury on you with car park.",
     author: "Aiko Fernandes"
+},{
+    text: "what the fuck's a lion?",
+    author: "Ethan Montgomery"
 }];
 
 const setQuote = () => {
