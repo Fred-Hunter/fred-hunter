@@ -71,8 +71,11 @@ const quotes = [{
     text: "The shit is out of toilet.",
     author: "Ethan Montgomery"
 },{
-    text: "what the fuck's a lion?",
+    text: "What the fuck's a lion?",
     author: "Ethan Montgomery"
+},{
+    text: "My hopes are shrimp",
+    author: "Emma Sullivan"
 }];
 
 const setQuote = () => {
