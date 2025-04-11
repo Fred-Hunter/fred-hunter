@@ -76,6 +76,9 @@ const quotes = [{
 },{
     text: "My hopes are shrimp",
     author: "Emma Sullivan"
+},{
+    text: "More familiar anus?",
+    author: "Nia Temesgen"
 }];
 
 const setQuote = () => {
