@@ -20,23 +20,27 @@
 			color: #333;
 			font-size: 1.5rem; /* Increase text size */
 			font-weight: bold;
-			display: block;
+			display: flex; /* Use flexbox for alignment */
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			text-align: center;
 			position: relative;
 			margin: 20px auto;
-			width: fit-content;
+			width: 250px; /* Match the image width */
+			height: 150px; /* Set height to match the image */
 		}
 
 		.cloud-link img {
-			width: 250px; /* Increase size of the cloud SVGs */
-			display: block;
+			position: absolute; /* Position the image behind the text */
+			top: 0;
+			left: 0;
+			width: 100%; /* Make the image fill the container */
+			height: 100%;
+			z-index: -1; /* Place the image behind the text */
 		}
 
 		.cloud-link span {
-			position: absolute;
-			top: 35%; /* Adjust position for text */
-			left: 50%;
-			transform: translate(-50%, -50%);
 			color: #333;
 			font-size: 1.5rem;
 			font-weight: bold;
@@ -44,28 +48,16 @@
 		}
 
 		.cloud-link .description {
-			position: absolute;
-			top: 70%; /* Add spacing above the description */
-			left: 50%;
-			transform: translate(-50%, -50%);
 			color: #555;
 			font-size: 1rem;
 			font-weight: normal;
 			pointer-events: none;
 		}
 
-		.cloud-link .cloud-title {
-			top: 50%;
-			left: 50%;
-            font-size: 2rem;;
-		}
-
 		.cloud-link:nth-child(1) {
 			transform: translateX(-30px); /* Offset for the title */
-		}
-
-		.cloud-link:nth-child(1) img {
 			width: 300px; /* Larger size for the title */
+			height: 180px;
 		}
 
 		.cloud-link:nth-child(1) span {
