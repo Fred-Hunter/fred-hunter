@@ -28,13 +28,13 @@
 		}
 
 		.cloud-link img {
-			width: 200px; /* Increase size of the cloud SVGs */
+			width: 250px; /* Increase size of the cloud SVGs */
 			display: block;
 		}
 
 		.cloud-link span {
 			position: absolute;
-			top: 50%;
+			top: 35%; /* Adjust position for text */
 			left: 50%;
 			transform: translate(-50%, -50%);
 			color: #333;
@@ -43,12 +43,29 @@
 			pointer-events: none; /* Ensure text doesn't interfere with clicks */
 		}
 
+		.cloud-link .description {
+			position: absolute;
+			top: 70%; /* Add spacing above the description */
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #555;
+			font-size: 1rem;
+			font-weight: normal;
+			pointer-events: none;
+		}
+
+		.cloud-link .cloud-title {
+			top: 50%;
+			left: 50%;
+            font-size: 2rem;;
+		}
+
 		.cloud-link:nth-child(1) {
 			transform: translateX(-20px); /* Offset for the title */
 		}
 
 		.cloud-link:nth-child(1) img {
-			width: 250px; /* Larger size for the title */
+			width: 300px; /* Larger size for the title */
 		}
 
 		.cloud-link:nth-child(1) span {
@@ -66,25 +83,44 @@
 		.cloud-link:nth-child(4) {
 			transform: translateX(25px); /* Slight offset */
 		}
+
+		.sun {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			width: 100px;
+			height: auto;
+			display: block;
+		}
+
+		@media (max-width: 768px) {
+			.sun {
+				display: none; /* Hide the sun on mobile devices */
+			}
+		}
 	</style>
 </head>
 
 <body>
+	<img src="clouds/sun.svg" alt="Sun" class="sun">
 	<a href="index.html" class="cloud-link">
 		<img src="clouds/cloud1.svg" alt="Fred Hunter">
-		<span>Fred Hunter</span>
+		<span class="cloud-title">Fred Hunter</span>
 	</a>
 	<a href="about.html" class="cloud-link">
 		<img src="clouds/cloud2.svg" alt="About">
 		<span>About</span>
+		<div class="description">Learn more about Fred</div>
 	</a>
 	<a href="projects.html" class="cloud-link">
 		<img src="clouds/cloud3.svg" alt="Projects">
 		<span>Projects</span>
+		<div class="description">Explore Fred's work</div>
 	</a>
 	<a href="contact.html" class="cloud-link">
 		<img src="clouds/cloud1.svg" alt="Contact">
 		<span>Contact</span>
+		<div class="description">Get in touch with Fred</div>
 	</a>
 </body>
 
