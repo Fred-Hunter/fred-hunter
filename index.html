@@ -9,10 +9,12 @@
 	<link href="stylesheet.css" rel="stylesheet" type="text/css" />
 	<style>
 		html, body {
-			height: 100%; /* Ensure the background covers the full screen */
+			height: auto; /* Allow the height to adjust for content */
+			min-height: 100%; /* Ensure the background covers the full screen initially */
 			background: #87CEEB; /* Sky blue */
 			margin: 0;
 			font-family: Arial, sans-serif;
+			overflow-y: auto; /* Enable vertical scrolling */
 		}
 
 		.cloud-link {
@@ -45,6 +47,7 @@
 			color: #333;
 			font-size: 1.5rem;
 			font-weight: bold;
+            margin-top: 0.5rem;
 			pointer-events: none; /* Ensure text doesn't interfere with clicks */
 		}
 
@@ -55,26 +58,21 @@
 			pointer-events: none;
 		}
 
+		.cloud-link:nth-child(odd) {
+			transform: translateX(-30px); /* Offset for odd clouds */
+		}
+
+		.cloud-link:nth-child(even) {
+			transform: translateX(50px); /* Offset for even clouds */
+		}
+
 		.cloud-link:nth-child(1) {
-			transform: translateX(-30px); /* Offset for the title */
 			width: 350px; /* Larger size for the title */
 			height: 200px;
 		}
 
 		.cloud-link:nth-child(1) span {
 			font-size: 2rem; /* Larger text for the title */
-		}
-
-		.cloud-link:nth-child(2) {
-			transform: translateX(50px); /* Increased offset */
-		}
-
-		.cloud-link:nth-child(3) {
-			transform: translateX(-40px); /* Increased offset */
-		}
-
-		.cloud-link:nth-child(4) {
-			transform: translateX(70px); /* Increased offset */
 		}
 
 		.sun {
@@ -108,14 +106,14 @@
 	<a href="index.html" class="cloud-link">
 		<img src="clouds/cloud3.svg" alt="Contact">
 		<span>Rating calculator</span>
-		<div class="description">A tool for creating rating based ladders</div>
+		<div class="description">A tool for creating rating-<br>based ladders</div>
 	</a>
 	<a href="index.html" class="cloud-link">
 		<img src="clouds/cloud1.svg" alt="Contact">
 		<span>Soothwood</span>
 		<div class="description">Puzzle website</div>
 	</a>
-	<a href="index.html" class="cloud-link">
+	<a href="quotes.html" class="cloud-link">
 		<img src="clouds/cloud2.svg" alt="Projects">
 		<span>Anonymous<br>quotes</span>
 		<div class="description"></div>
