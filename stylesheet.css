@@ -128,6 +128,29 @@ html.quotes-page {
     }
 }
 
+@keyframes float-odd {
+    0% {
+        transform: translateX(-30px);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(-30px);
+    }
+}
+@keyframes float-even {
+    0% {
+        transform: translateX(50px);
+    }
+    50% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
 html, body {
     height: auto;
     min-height: 100%;
@@ -185,16 +208,11 @@ html, body {
 }
 
 .cloud-link:nth-child(odd) {
-    transform: translateX(-30px);
+    animation: float-odd 48s ease-in-out infinite;
 }
 
 .cloud-link:nth-child(even) {
-    transform: translateX(50px);
-}
-
-.cloud-link:nth-child(1) {
-    width: 350px;
-    height: 200px;
+    animation: float-even 40s ease-in-out infinite;
 }
 
 .cloud-link:nth-child(1) span {
