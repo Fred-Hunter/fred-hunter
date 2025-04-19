@@ -79,6 +79,9 @@ const quotes = [{
 },{
     text: "More familiar anus?",
     author: "Nia Temesgen"
+},{
+    text: "My head is made of head.",
+    author: "Soraya Bashir"
 }];
 
 const setQuote = () => {
