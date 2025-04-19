@@ -203,16 +203,10 @@ html, body {
 .sun {
     position: absolute;
     top: 40px;
-    right: 150px;
+    right: 220px;
     width: 200px;
     height: auto;
     display: block;
-}
-
-@media (max-width: 768px) {
-    .sun {
-        display: none;
-    }
 }
 
 .disabled-cloud {
