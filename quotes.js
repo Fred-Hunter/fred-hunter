@@ -80,6 +80,9 @@ const quotes = [{
     text: "More familiar anus?",
     author: "Nia Temesgen"
 },{
+    text: "I'd rather just eat the banana and move on with my life.",
+    author: "Chioma Reyes"
+},{
     text: "My head is made of head.",
     author: "Soraya Bashir"
 }];
