@@ -83,6 +83,9 @@ const quotes = [{
     text: "I'd rather just eat the banana and move on with my life.",
     author: "Chioma Reyes"
 },{
+    text: "Why screw when you can muscle?? Grrr",
+    author: "Emma Sullivan"
+},{
     text: "My head is made of head.",
     author: "Soraya Bashir"
 }];
