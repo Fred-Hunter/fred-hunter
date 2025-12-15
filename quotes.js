@@ -88,6 +88,12 @@ const quotes = [{
 },{
     text: "My head is made of head.",
     author: "Soraya Bashir"
+},{
+    text: "Where do you class a leg?",
+    author: "Lars Andersen"
+},{
+    text: "I don't think my foot is a foot.",
+    author: "Soraya Bashir"
 }];
 
 const setQuote = () => {
