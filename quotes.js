@@ -94,6 +94,9 @@ const quotes = [{
 },{
     text: "I don't think my foot is a foot.",
     author: "Soraya Bashir"
+},{
+    text: "Trees are just vertical sharks. Everyone knows that",
+    author: "Emma Sullivan"
 }];
 
 const setQuote = () => {
