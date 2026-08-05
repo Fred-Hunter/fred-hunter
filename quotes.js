@@ -97,6 +97,15 @@ const quotes = [{
 },{
     text: "Trees are just vertical sharks. Everyone knows that",
     author: "Emma Sullivan"
+},{
+    text: "Why did you yucj me twice?",
+    author: "Natalia Petrov"
+},{
+    text: "I think I'm suckling on myself",
+    author: "Emma Sullivan"
+},{
+    text: "What's the name of my head? Teapot",
+    author: "Aiko Fernandes"
 }];
 
 const setQuote = () => {
